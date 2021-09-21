@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="css/styles/contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+    <div class="color-box1">
+        <div class="container">
+            <div class="navbar">
+                <p class="logo">muhammad naufal syarif</p>
+                <nav>
+                    <ul id="menulist">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="portofolio.html">portofolio</a></li>
+                        <li><a href="skills.html">skills</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <img src="../webporto/images/hamlist.png" class="menu-icon" onclick="togglemenu()">
+            </div>    
+	<div class="container1">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>contact me.</h2>
+				<input type="text" class="field" placeholder="your name">
+				<input type="text" class="field" placeholder="your email">
+				<input type="text" class="field" placeholder="phone">
+				<textarea placeholder="message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		    </div>
+	    </div>
+    </div>
+    <div class="color-box2">
+        <footer>
+            © 2021 Naufal Syarif • All rights reserved
+        </footer>
+        </div>
+    </div>
+
+    <script>
+        var menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu() {
+
+            if(menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "250px";
+            }
+            else
+            {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
