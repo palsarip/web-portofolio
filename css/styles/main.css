@@ -256,6 +256,14 @@ nav ul li a:hover {
     margin: auto;
 }
 
+.fab {
+    position: static;
+    text-align: center;
+    height: 200px ;
+    font-size: 35px;
+    margin: auto;
+}
+
 .titlethings {
     height: 10em;
     position: relative; 
