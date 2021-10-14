@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Kanit-SemiBold;
+    src: url(../fonts/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Kanit-Regular;
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+
 *{
 	padding: 0;
 	margin: 0;
@@ -260,6 +270,91 @@ textarea{
         position: absolute;
     }
 
+    .container1{
+        position: relative;
+        width: 125%;
+        height: 100%;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        margin-left: -80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 100px;
+    }
+    
+	.contact-box{
+		grid-template-columns: 1fr;
+        border-radius: 50px;
+        margin-bottom: 70px;
+	}
+	.left{
+		height: 300px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 0px;
+	}
+
+    nav ul {
+        width: 100%;
+        background: white;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: rgb(115, 211, 255);
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #menulist {
+        overflow: hidden;
+        height: 225px;
+        transition: 0.5s;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .col-1 h1 {
+        position: relative;
+        margin-top: 60px;
+        color: white;
+        font-size: 75px;
+        font-family: kanit semibold;
+    }
+
+    .fas.fa-bars {
+        width: auto;
+        height: 0%;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .logo {
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: kanit semibold;
+        position: absolute;
+    }
+
 	.contact-box{
 		grid-template-columns: 1fr;
         border-radius: 50px;
@@ -314,4 +409,26 @@ textarea{
         font-size: 75px;
         font-family: kanit semibold;
     }
+
+    .fas.fa-bars {
+        width: auto;
+        height: 0%;
+        font-size: 25px;
+    }
+
+    .container1{
+        position: relative;
+        margin-left: -100px;
+        width: 500px;
+        height: 100%;
+        margin-top: 100px;
+        margin-bottom: 25px;
+        margin-left: -92px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 100px;
+    }
+
+    
 }
