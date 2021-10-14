@@ -845,4 +845,851 @@ nav ul li a:hover {
 }
 
 }
+@font-face {
+    font-family: Kanit-SemiBold;
+    src: url(../fonts/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Kanit-Regular;
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.color-box1 {
+    width: 100%;
+    height: 75px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color:rgb(115, 211, 255);
+}
+
+.color-box2 {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    background-color:rgb(115, 211, 255);
+}
+
+.color-box2 footer {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    color: white;
+    font-size: 15px;
+    font-family: Kanit-SemiBold;
+}
+
+.center {
+    text-align: center;
+  }
+
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box-containerintro{
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: Kanit-SemiBold;
+    position: absolute;
+}
+
+.fas.fa-bars {
+    width: auto;
+    height: 0%;
+}
+
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 20px;
+    display: none;
+    color: white;
+}
+
+.fas.fa-bars {
+    width: auto;
+    height: 0%;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-top: 20px;
+    background: color rgb(115, 211, 255)
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Kanit-Semibold;
+}
+
+nav ul li a:hover {
+    color: rgb(206, 206, 206);
+    transition:  color .15s 
+    ease-in-out,background-color .15s  
+    ease-in-out,border-color .15s 
+    ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.header {
+    color: white;
+    font-size: 20px;
+    font-family: Kanit-Semibold;
+}
+
+.row {
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+
+}
+.col-1 h1 {
+    position: relative;
+    margin-top: -20px;
+    color: white;
+    font-size: 75px;
+    font-family: Kanit-Semibold;
+}
+
+.introduction {
+    position: static;
+    margin-left: 40%;
+    margin-top: -250px;
+}
+
+.bodyintro {
+    margin-top: -300px;
+}
+
+.bodyintro h2 {
+    position: static;
+    margin-top: px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: Kanit-Semibold;
+}
+
+.bodyintro p {
+    position: static;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Kanit-Regular;
+}
+
+.col-2 {
+    position: static;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.pal {
+    position: static;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-left: -300px;
+    margin-top: 250px;
+    background: url("../../images/pal.jpg");
+    background-size: cover;
+}
+
+.titlethings {
+    height: 10em;
+    position: relative;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlethings h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: Kanit-SemiBold;
+    position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+.titlethings h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 60px;
+    border-radius: 2px;
+    background-color: #73d3ff;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    
+}
+
+.box-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}
+
+.porto1 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    background: url("../../images/test1.jpg");
+    background-size: cover;
+}
+
+.porto2 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto3 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto4 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto5 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto6 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+
+
+.porto1:hover {
+    transform: scale(1.1);
+}
+
+.porto2:hover {
+    transform: scale(1.1);
+}
+
+.porto3:hover {
+    transform: scale(1.1);
+}
+
+.porto4:hover {
+    transform: scale(1.1);
+}
+
+.porto5:hover {
+    transform: scale(1.1);
+}
+
+.porto6:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media only screen and (max-width:880px) {
+
+    .logo {
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: Kanit-SemiBold;
+        position: absolute;
+    }
+
+    .box-containerintro{
+        width: 100%;
+        height: 725px;
+        margin-top: 200px;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 50px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+        
+    }
+
+    nav ul {
+        width: 100%;
+        background: white;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: rgb(115, 211, 255);
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #menulist {
+        overflow: hidden;
+        height: 225px;
+        transition: 0.5s;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .col-1 h1 {
+        position: relative;
+        margin-top: 60px;
+        color: white;
+        font-size: 75px;
+        font-family: Kanit-SemiBold;
+    }
+    
+    .introduction {
+        position: static;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+    
+    .introduction h2 {
+        position: static;
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-family: Kanit-SemiBold;
+    }
+    
+    .introduction p {
+        position: static;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-family: Kanit-Regular;
+    }
+
+    .pal {
+        display: none;
+    }
+
+    .palhp {
+        position: static;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin:auto;
+        margin-top: 150px;
+        background: url("../../images/pal.jpg");
+        background-size: cover;
+    }
+
+    .col-2 {
+    position: static;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 200px
+    }
+
+    .col-2 .pal {
+        position: static;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin-left: 70px;
+    }    
+
+    .box-container {
+        display:block;
+        justify-content: space-between;
+        margin:auto;
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fas {
+        position: static;
+        text-align: center;
+        height: 250px ;
+        font-size: 35px;
+        margin: auto;
+    }
+
+    .porto1 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 0px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    background: url("../../images/test1.jpg");
+    background-size: cover;
+}
+
+.porto2 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.box-container1 {
+    display:block;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.porto3 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto4 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto5 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto6 {
+    transition: all .2s ease-in-out;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+
+.fas.fa-bars {
+    width: auto;
+    height: 0%;
+    font-size: 25px;
+}
+
+}
+
+@media only screen and (max-width:400px) {
+
+    .logo {
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: Kanit-SemiBold;
+        position: absolute;
+    }
+
+    .box-containerintro{
+        width: 100%;
+        height: 725px;
+        margin-top: 200px;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 50px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+        
+    }
+
+    nav ul {
+        width: 100%;
+        background: white;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: rgb(115, 211, 255);
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #menulist {
+        overflow: hidden;
+        height: 225px;
+        transition: 0.5s;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .col-1 h1 {
+        position: relative;
+        margin-top: 60px;
+        color: white;
+        font-size: 75px;
+        font-family: Kanit-SemiBold;
+    }
+    
+    .introduction {
+        position: static;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+    
+    .introduction h2 {
+        position: static;
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-family: Kanit-SemiBold;
+    }
+    
+    .introduction p {
+        position: static;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-family: Kanit-Regular;
+    }
+
+    .pal {
+        display: none;
+    }
+
+    .palhp {
+        position: static;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin:auto;
+        margin-top: 150px;
+        background: url("../../images/pal.jpg");
+        background-size: cover;
+    }
+
+    .col-2 {
+    position: static;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    margin-top: 200px
+    }
+
+    .col-2 .pal {
+        position: static;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin-left: 70px;
+    }    
+
+    .box-container {
+        display:block;
+        justify-content: space-between;
+        margin:auto;
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fas {
+        position: static;
+        text-align: center;
+        height: 250px ;
+        font-size: 35px;
+        margin: auto;
+    }
+
+    .porto1 {
+    transition: all .2s ease-in-out;
+    width: 300px;
+    height: 150px;
+    margin-top: 0px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 7.5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    background: url("../../images/test1.jpg");
+    background-size: cover;
+}
+
+.porto2 {
+    transition: all .2s ease-in-out;
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 7.5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.box-container1 {
+    display:block;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.porto3 {
+    transition: all .2s ease-in-out;
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 7.5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto4 {
+    transition: all .2s ease-in-out;
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 7.5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto5 {
+    transition: all .2s ease-in-out;
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 7.5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.porto6 {
+    transition: all .2s ease-in-out;
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 7.5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+
+.fas.fa-bars {
+    width: auto;
+    height: 0%;
+    font-size: 25px;
+}
+
+}
 
