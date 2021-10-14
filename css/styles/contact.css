@@ -16,8 +16,8 @@ body{
     right: 0;
     top: 0;
     position: absolute;
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
     background-color:rgb(115, 211, 255);
 }
 
@@ -64,7 +64,7 @@ body{
 
 .logo {
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 20px;
     color: white;
     font-family: kanit semibold;
@@ -77,6 +77,21 @@ body{
     align-items: center;
     margin-top: 20px;
     display: none;
+}
+
+
+.fas.fa-bars {
+    width: auto;
+    height: 0%;
+    color: white;
+}
+
+.fas {
+    position: static;
+    text-align: center;
+    height: 200px ;
+    font-size: 35px;
+    margin: auto;
 }
 
 nav {
@@ -235,6 +250,16 @@ textarea{
 }
 
 @media screen and (max-width: 880px){
+
+    .logo {
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: kanit semibold;
+        position: absolute;
+    }
+
 	.contact-box{
 		grid-template-columns: 1fr;
         border-radius: 50px;
