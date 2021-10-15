@@ -48,7 +48,7 @@ body{
     margin-top: 25px;
     color: white;
     font-size: 15px;
-    font-family: kanit semibold;
+    font-family: Kanit-SemiBold;
 }
 
 .center {
@@ -77,9 +77,10 @@ body{
     margin-top: 50px;
     font-size: 20px;
     color: white;
-    font-family: kanit semibold;
+    font-family: Kanit-SemiBold;
     position: absolute;
 }
+
 
 .menu-icon {
     width: 25px;
@@ -87,6 +88,7 @@ body{
     align-items: center;
     margin-top: 20px;
     display: none;
+    color: white;
 }
 
 
@@ -121,7 +123,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    font-family: kanit semibold;
+    font-family: Kanit-SemiBold;
 
 }
 
@@ -136,7 +138,7 @@ nav ul li a:hover {
 .header {
     color: white;
     font-size: 20px;
-    font-family: kanit semibold;
+    font-family: Kanit-SemiBold;
 }
 
 .row {
@@ -150,7 +152,7 @@ nav ul li a:hover {
     margin-top: -20px;
     color: white;
     font-size: 75px;
-    font-family: kanit semibold;
+    font-family: Kanit-SemiBold;
 }
 
 .container1{
@@ -266,24 +268,26 @@ textarea{
         margin-top: 20px;
         font-size: 20px;
         color: white;
-        font-family: kanit semibold;
+        font-family: Kanit-SemiBold;
         position: absolute;
     }
 
     .container1{
-        position: relative;
+        position:relative;
         width: 125%;
         height: 100%;
-        margin-top: 100px;
-        margin-bottom: 0px;
-        margin-left: -80px;
-        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
         justify-content: center;
         align-items: center;
         padding: 20px 100px;
     }
     
 	.contact-box{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
 		grid-template-columns: 1fr;
         border-radius: 50px;
         margin-bottom: 70px;
@@ -323,6 +327,7 @@ textarea{
         transition: 0.5s;
         border-bottom-left-radius: 10%;
         border-bottom-right-radius: 10%;
+        box-shadow: 0 4px 6px -2px rgba(0,0,0,0.2);
     }
 
     .row {
@@ -335,7 +340,7 @@ textarea{
         margin-top: 60px;
         color: white;
         font-size: 75px;
-        font-family: kanit semibold;
+        font-family: Kanit-SemiBold;
     }
 
     .fas.fa-bars {
@@ -351,7 +356,7 @@ textarea{
         margin-top: 20px;
         font-size: 20px;
         color: white;
-        font-family: kanit semibold;
+        font-family: Kanit-SemiBold;
         position: absolute;
     }
 
@@ -395,7 +400,9 @@ textarea{
         transition: 0.5s;
         border-bottom-left-radius: 10%;
         border-bottom-right-radius: 10%;
+        box-shadow: 0 4px 6px -2px rgba(0,0,0,0.2);
     }
+
 
     .row {
         flex-direction: column-reverse;
@@ -407,7 +414,7 @@ textarea{
         margin-top: 60px;
         color: white;
         font-size: 75px;
-        font-family: kanit semibold;
+        font-family: Kanit-SemiBold;
     }
 
     .fas.fa-bars {
@@ -417,18 +424,25 @@ textarea{
     }
 
     .container1{
-        position: relative;
-        margin-left: -100px;
-        width: 500px;
+        position:relative;
+        width: 125%;
         height: 100%;
-        margin-top: 100px;
-        margin-bottom: 25px;
-        margin-left: -92px;
-        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
         justify-content: center;
         align-items: center;
         padding: 20px 100px;
     }
+    
+	.contact-box{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+		grid-template-columns: 1fr;
+        border-radius: 50px;
+        margin-bottom: 70px;
+	}
 
     
 }
